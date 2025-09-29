@@ -1,0 +1,89 @@
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background: #f9f9f9;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+.back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #667eea;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.back-btn:hover {
+  color: #5a67d8;
+}
+
+.form-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.property-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.property-form input,
+.property-form textarea {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+.property-form input:focus,
+.property-form textarea:focus {
+  border-color: #667eea;
+}
+
+.property-form textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+.uploading {
+  font-size: 0.9rem;
+    color: #666;
+}
+
+.submit-btn {
+  background: #667eea;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #5a67d8;
+}

@@ -1,0 +1,35 @@
+.home {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+/* Grid container */
+.property-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* mobile default: 1 card */
+  gap: 24px;
+  justify-items: center; /* center cards horizontally */
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  .property-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 1024px) {
+  .property-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

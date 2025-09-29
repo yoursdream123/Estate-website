@@ -1,0 +1,89 @@
+.guidelines-container {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.guidelines-hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #4e8ff0, #3d73c1);
+  color: white;
+  height: 300px;
+}
+
+.guidelines-hero h1 {
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+
+.guidelines-hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.guidelines-section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.guidelines-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+  color: #222;
+}
+
+.guidelines-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.guideline-card {
+  flex: 1 1 250px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.guideline-card:hover {
+  transform: translateY(-5px);
+}
+
+.guideline-card .icon {
+  font-size: 2rem;
+  color: #4e8ff0;
+  margin-bottom: 12px;
+}
+
+.warning {
+  background: #fff8f0;
+  border-left: 6px solid #ff9800;
+}
+
+.warning h2 {
+  color: #d9534f;
+}
+
+.warning ul {
+  padding-left: 20px;
+}
+
+.disclaimer {
+  background: #f3f4f6;
+  padding: 30px;
+  border-radius: 12px;
+  color: #444;
+  font-style: italic;
+}
+
+.contact {
+  text-align: center;
+  padding: 30px;
+  background: #f9fafb;
+}
