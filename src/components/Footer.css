@@ -1,0 +1,67 @@
+.footer {
+  background: #1e1e2f;
+  color: #fff;
+  padding: 40px 20px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-top h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-top p {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.review-form input,
+.review-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.review-form textarea {
+  resize: none;
+  height: 120px;
+}
+
+.review-form button {
+  width: 100px;
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 2px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.review-form button:hover {
+  background: #5a67d8;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}

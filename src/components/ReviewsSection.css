@@ -1,0 +1,64 @@
+.reviews-container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.reviews-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 300px); /* fix width per card */
+  gap: 20px; /* kam spacing */
+  justify-content: center; /* center mein rakho */
+}
+
+@media (max-width: 1024px) {
+  .reviews-grid {
+    grid-template-columns: repeat(2, 300px); /* tablet pe 2 cards */
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews-grid {
+    grid-template-columns: 1fr; /* mobile pe full width */
+  }
+}
+
+.review-card {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 250px; /* uniform height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.review-desc {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: auto; /* push footer down */
+  text-align: left;
+}
+
+.review-footer {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.review-name {
+  font-weight: bold;
+  color: #222;
+  margin: 0;
+}
+
+
+
+
+
+
